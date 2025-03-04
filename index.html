@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="/src/assets/template/logo.png" id="logo" alt="Logo Member Club">
+
+    <section id="input" class="input">
+        <input type="text" name="id-search" id="search" class="id" placeholder="ID do cartão" maxlength="15" pattern="\d*" required>
+        <button type="submit" class="button">
+            <img src="/src/assets/template/arrow-elbow-down-left.svg" alt="Botão de enviar">
+        </button>
+    </section>
+
+    <div class="mobile-container hidden">
+
+        <section id="data" class="sm-container data">
+            <div class="profile-picture-container">
+                <img id="profile-picture" class="profile-picture" src="" alt="Imagem de perfil">
+            </div>
+            <div class="text-column">
+                <h2 id="name" class="name"></h2>
+                <span id="client-since" class="client-since"></span>
+            </div>
+        </section>
+    
+        <section id="progress" class="sm-container">
+            <div id="cuts-left" class="cuts-left">
+                <span><strong></strong> cortes restantes</span>
+                <div id="progress-bar-container" class="progress-bar-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>                
+                    <span></span>                    
+                </div>
+            </div>
+            <div id="final-gift">
+                <img src="/src/assets/template/pingift.png" alt="Presente">
+            </div>
+        </section>
+
+        <section id="card" class="container">
+            <header>
+                <div class="text-column">
+                    <strong>Cartão fidelidade</strong>
+                    <p>Ao fazer cortes de cabelo, o décimo sai de graça!</p>
+                </div>
+                <span id="id-tag" class="id-tag"></span>
+            </header>
+            <div class="slots">
+                <div class="slot slot-true"></div>
+                <div class="slot"></div>
+                <div id="gift" class="slot slot-gift">
+                    <img src="/src/assets/template/gift-solid.svg" alt="Gift">
+                </div>
+            </div>
+        </section>
+
+        <section id="history" class="container history">
+            <ul id="history-list" class="history-list">
+                <header>
+                    Histórico
+                    <span></span>
+                </header>
+                <div id="list" class="list">
+                    <li>
+                        <div class="text-column">
+                            <strong id="date"></strong>
+                            <span id="time"></span>
+                        </div>
+                        <img class="seal-check" src="/src/assets/template/sealcheck.svg" alt="">
+                    </li>
+                </div>
+            </ul>
+        </section>
+    </div>
+    
+    <div class="desktop-container hidden">
+
+        <div class="left-container">
+
+            <section id="data" class="sm-container data">
+                <div class="profile-picture-container">
+                    <img id="profile-picture" class="profile-picture" src="" alt="Imagem de perfil">
+                </div>
+                <div class="text-column">
+                    <h2 id="name" class="name"></h2>
+                    <span id="client-since" class="client-since"></span>
+                </div>
+            </section>
+    
+            <section id="history" class="container history">
+                <ul id="history-list" class="history-list">
+                    <header>
+                        Histórico
+                        <span></span>
+                    </header>
+                    <div id="list" class="list">
+                        <li>
+                            <div class="text-column">
+                                <strong id="date"></strong>
+                                <span id="time"></span>
+                            </div>                            
+                            <img class="seal-check" src="/src/assets/template/sealcheck.svg" alt="">
+                        </li>
+                    </div>
+                </ul>
+            </section>
+
+        </div>
+        
+        <div class="right-container">
+
+            <section id="card" class="container">
+                <header>
+                    <div class="text-column">
+                        <strong>Cartão fidelidade</strong>
+                        <p>Ao fazer cortes de cabelo, o décimo sai de graça!</p>
+                    </div>
+                    <span id="id-tag" class="id-tag"></span>
+                </header>
+                <div class="slots">
+                    <div class="slot slot-true"></div>
+                    <div class="slot"></div>
+                    <div id="gift" class="slot slot-gift">
+                        <img src="/src/assets/template/gift-solid.svg" alt="Gift">
+                    </div>
+                </div>
+            </section>
+
+            <section id="progress" class="sm-container">
+                <div id="cuts-left" class="cuts-left">
+                    <span><strong></strong> cortes restantes</span>
+                    <div id="progress-bar-container" class="progress-bar-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="final-gift">
+                    <img src="/src/assets/template/pingift.png" alt="Presente">
+                </div>
+            </section>
+
+        </div>  
+
+    </div>  
+
+</body>
+
+</html>
