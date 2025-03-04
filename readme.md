@@ -5,7 +5,9 @@
   <img alt="Preview do projeto desenvolvido." src="github/projeto.jpg" width="60%">
 </p>
 
+<h3 id="descricao" align="left">
 :book: Descrição do Projeto
+</h3>
 Este projeto implementa um sistema de cartão fidelidade.
 
 
